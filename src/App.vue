@@ -45,10 +45,6 @@ router.afterEach((to, from) => {
 </script>
 
 <template>
-  <v-app>
-    <v-main>
-      <router-view />
-      <vue-progress-bar></vue-progress-bar>
-    </v-main>
-  </v-app>
+  <router-view />
+  <vue-progress-bar></vue-progress-bar>
 </template>
